@@ -5,6 +5,10 @@ VisualStudioVersion = 16.0.30503.244
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCommerce.Web", "FCommerce.Web\FCommerce.Web.csproj", "{DD2F2013-99E2-4A28-A878-E250D7EFD51C}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCommerce.Core", "FCommerce.Core\FCommerce.Core.csproj", "{E2F53899-83C6-45C0-BE7B-8308C6563BB7}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "FCommerce.Model", "FCommerce.Model\FCommerce.Model.csproj", "{8256E31D-F3CB-4EF5-8E69-54882FE89A8F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -15,6 +19,14 @@ Global
 		{DD2F2013-99E2-4A28-A878-E250D7EFD51C}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{DD2F2013-99E2-4A28-A878-E250D7EFD51C}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{DD2F2013-99E2-4A28-A878-E250D7EFD51C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E2F53899-83C6-45C0-BE7B-8308C6563BB7}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E2F53899-83C6-45C0-BE7B-8308C6563BB7}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E2F53899-83C6-45C0-BE7B-8308C6563BB7}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E2F53899-83C6-45C0-BE7B-8308C6563BB7}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8256E31D-F3CB-4EF5-8E69-54882FE89A8F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8256E31D-F3CB-4EF5-8E69-54882FE89A8F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8256E31D-F3CB-4EF5-8E69-54882FE89A8F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8256E31D-F3CB-4EF5-8E69-54882FE89A8F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
