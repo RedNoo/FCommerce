@@ -29,11 +29,11 @@ namespace FCommerce.Core.Connection
             });
         }
 
-        public virtual T Query<T>(dynamic id)
+        public virtual T Query<T>(int id)
         {
             return _context.Transaction(transaction =>
             {
-                var result = _context.Connection.Get<T>(id, transaction,30);
+                var result = _context.Connection.Get<T>(id, transaction);
 
                 return result;
             });

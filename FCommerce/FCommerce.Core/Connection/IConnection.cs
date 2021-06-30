@@ -7,7 +7,7 @@ namespace FCommerce.Core.Connection
     {
         IEnumerable<T> Query<T>(string query, object param = null);
 
-        T Query<T>(dynamic id);
+        T Query<T>(int id);
 
         ListWithCount<T> QueryMulti<T>(string query, object param = null);
 
